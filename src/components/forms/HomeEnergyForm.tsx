@@ -53,9 +53,9 @@ const HomeEnergyForm: React.FC<HomeEnergyFormProps> = ({ data, onChange }) => {
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="small">Small (< 1,500 sq ft)</SelectItem>
+                <SelectItem value="small">Small (&lt; 1,500 sq ft)</SelectItem>
                 <SelectItem value="medium">Medium (1,500-2,500 sq ft)</SelectItem>
-                <SelectItem value="large">Large (> 2,500 sq ft)</SelectItem>
+                <SelectItem value="large">Large (&gt; 2,500 sq ft)</SelectItem>
               </SelectContent>
             </Select>
           </div>
